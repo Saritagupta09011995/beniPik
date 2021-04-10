@@ -1,0 +1,25 @@
+<div class="container-fluid p-5">
+    <h4 class="text-center pb-2">Deal Details</h4>
+    <table class="table table-striped">
+      <thead class="border">
+        <tr>
+          <th class="w-20">Name</th>
+          <th class="w-10">Address</th>
+          <th class="w-10">Image</th>
+          <th class="w-30">Description Id</th>
+          <th class="w-20">Website</th>
+          <th class="w-10">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let dealData of dealsList">
+          <td class="w-20">{{dealData.dealName}}</td>
+          <td class="w-10">{{dealData.dealAddress}}</td>
+          <td class="w-20"><img src="{{dealData.dealImage}}"></td>
+          <td class="w-30 dsc">{{dealData.dealDescription}}</td>
+          <td class="w-10 dsc"><a href="#">{{dealData.dealWebsite}}</a></td>
+          <td class="w-10"><button (click)="navigateToDetails(dealData.dealId)" type="button" class="btn btn-success">View</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

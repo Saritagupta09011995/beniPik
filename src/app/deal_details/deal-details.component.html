@@ -1,0 +1,25 @@
+<div class="container p-5">
+    <h4 class="p-3 text-center">{{dealModel.offerHeading}}</h4>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="{{dealModel.dealImage}}">
+        </div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-2">
+                    <h5 class="pb-2">Name</h5>
+                    <h5 class="pb-2">Address</h5>
+                    <h5 class="pb-2">Website</h5>
+                    <h5 class="pb-2">Description</h5>
+                </div>
+                <div class="col-md-6">
+                    <p>{{dealModel.dealName}}</p>
+                    <p>{{dealModel.dealAddress}}</p>
+                    <p><a href="#">{{dealModel.dealWebsite}}</a></p>
+                    <p>{{dealModel.dealDescription}}</p>
+                </div>
+            </div>
+            <button class="btn btn-success">{{dealModel.buttonText}}</button>
+        </div>
+    </div>
+</div>
