@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1618081284092,
+  "index": "https://github.com/Saritagupta09011995/beniPik.git/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/Saritagupta09011995/beniPik.git/favicon.ico",
+        "https://github.com/Saritagupta09011995/beniPik.git/index.html",
+        "https://github.com/Saritagupta09011995/beniPik.git/main.96a0c2d98280d779ff3d.js",
+        "https://github.com/Saritagupta09011995/beniPik.git/manifest.webmanifest",
+        "https://github.com/Saritagupta09011995/beniPik.git/polyfills.35a5ca1855eb057f016a.js",
+        "https://github.com/Saritagupta09011995/beniPik.git/runtime.acf0dec4155e77772545.js",
+        "https://github.com/Saritagupta09011995/beniPik.git/styles.df2fa64b81abcc83b518.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-128x128.png",
+        "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-144x144.png",
+        "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-152x152.png",
+        "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-192x192.png",
+        "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-384x384.png",
+        "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-512x512.png",
+        "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-72x72.png",
+        "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://github.com/Saritagupta09011995/beniPik.git/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://github.com/Saritagupta09011995/beniPik.git/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://github.com/Saritagupta09011995/beniPik.git/index.html": "0df56c68dee83949dad4ca08f10bef94bedc09c3",
+    "https://github.com/Saritagupta09011995/beniPik.git/main.96a0c2d98280d779ff3d.js": "9c54af41c4ae036e0cf6bbcb5789045b88e97a0a",
+    "https://github.com/Saritagupta09011995/beniPik.git/manifest.webmanifest": "2689ed7cb6c37818f2fd81255a7add26337bd080",
+    "https://github.com/Saritagupta09011995/beniPik.git/polyfills.35a5ca1855eb057f016a.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
+    "https://github.com/Saritagupta09011995/beniPik.git/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://github.com/Saritagupta09011995/beniPik.git/styles.df2fa64b81abcc83b518.css": "71c71ab8f16ee8c6c90447f455e02fe040cd3570"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
